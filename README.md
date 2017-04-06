@@ -3,7 +3,7 @@ Demonstrates ad hoc class generation as a multi-module project.
 ## Usage
 
 ```
-$ mvn clean compile && cd main-project && mvn -Pexec | grep Hello
+$ mvn clean install && cd main-project && mvn -Pexec | grep Hello
 [INFO] Scanning for projects...
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Build Order:
